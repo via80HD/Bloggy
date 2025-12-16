@@ -1,2 +1,39 @@
-<!DOCTYPE html><html lang="en"><head>    <meta charset="UTF-8">    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>My Dark Themed Blog</title>    <link rel="stylesheet" href="styles.css"></head><body>    <header>        <h1>My Dark Themed Blog</h1>    </header>    <main>        <section id="articles">            <article>                <h2>Sample Article 1</h2>                <p>This is the content of the first sample article. It's a great start to my blog!</p>                <button onclick="toggleComments('comments1')">Comments</button>                <div id="comments1" class="comments" style="display:none;">                    <textarea placeholder="Leave a comment..."></textarea>                    <button>Submit</button>                </div>            </article>            <article>                <h2>Sample Article 2</h2>                <p>This is the content of the second sample article. More insights to come!</p>                <button onclick="toggleComments('comments2')">Comments</button>                <div id="comments2" class="comments" style="display:none;">                    <textarea placeholder="Leave a comment..."></textarea>                    <button>Submit</button>                </div>            </article>        </section>        <section id="editor">            <h2>Write a New Post</h2>            <textarea id="postContent" placeholder="Write your post here..."></textarea>            <button onclick="savePost()">Save Post</button>        </section>    </main>    <footer>        <p>&copy; 2023 My Dark Themed Blog</p>    </footer>    <script src="script.js"></script></body></html>
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Dark Themed Blog</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <h1>My Dark Themed Blog</h1>
+    </header>
+    <main>
+      <section id="articles">
+        <article>
+          <h2>Sample Article 1</h2>
+          <p>This is the content of the first sample article. It's a great start to my blog!</p>
+          <button onclick="toggleComments('comments1')">Comments</button>                
+          <div id="comments1" class="comments" style="display:none;">                    <textarea placeholder="Leave a comment..."></textarea>                    <button>Submit</button>                </div>
+        </article>
+        <article>
+          <h2>Sample Article 2</h2>
+          <p>This is the content of the second sample article. More insights to come!</p>
+          <button onclick="toggleComments('comments2')">Comments</button>                
+          <div id="comments2" class="comments" style="display:none;">                    <textarea placeholder="Leave a comment..."></textarea>                    <button>Submit</button>                </div>
+        </article>
+      </section>
+      <section id="editor">
+        <h2>Write a New Post</h2>
+        <textarea id="postContent" placeholder="Write your post here..."></textarea>
+        <button onclick="savePost()">Save Post</button>        
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 My Dark Themed Blog</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
