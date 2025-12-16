@@ -1,2 +1,8 @@
-function toggleComments(commentId) {    const commentsSection = document.getElementById(commentId);    commentsSection.style.display = commentsSection.style.display === 'none' ? 'block' : 'none';}function savePost() {    const postContent = document.getElementById('postContent').value;    alert('Post saved: ' + postContent);    // Here you would typically send the postContent to your server or GitHub Pages}
+function toggleComments(commentId) {
+	const commentsSection = document.getElementById(commentId);
+	commentsSection.style.display = commentsSection.style.display === 'none' ? 'block' : 'none';
+}
 
+function savePost() {
+	const postContent = document.getElementById('postContent').value;
+	alert('Post saved: ' + postContent); // Here you would typically send the postContent to your server or GitHub Pages}
